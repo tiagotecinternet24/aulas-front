@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blocos Semânticos</title>
+<style>
+    /* FOLHA DE ESTILOS INTERNA */
+
+    /* Regras CSS */
+    html { scroll-behavior: smooth; }
+
+    h1 {
+        color: red;
+        text-align: center;
+    }
+
+    p { font-size: 18px; }
+
+    hr {
+        height: 10px;
+        background-color: darkred;
+        border-color: black;
+        border-width: 4px;
+        border-style: solid;
+        border-radius: 6px;
+        opacity: 0.5;
+    }
+
+    h2 {
+        text-transform: uppercase;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    body {
+        font-family: Verdana;
+    }
+
+h3 {
+    text-align: right;
+    font-family: Impact;
+    font-size: 20px;
+    border-bottom-color: orange;
+    border-bottom-width: 4px;
+    border-bottom-style: solid;
+    
+    /* Removendo o negrito da fonte */
+    font-weight: normal;
+
+    letter-spacing: 4px;
+    word-spacing: 8px;
+    text-decoration: overline;
+    text-decoration-thickness: 4px;
+    padding-right: 8px;
+}
+
+article {
+    background-color: lightblue;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: black 5px 5px;
+    margin-bottom: 20px;
+}
+
+
+header {
+    background: linear-gradient(to left, darkblue, transparent);
+    position: sticky;
+    top: 0;
+}
+
+
+    
+
+</style>
+
+</head>
+
+<body>
+    <header>
+        <h1>(COM CSS INTERNO) Tags semânticas</h1>
+        <hr>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#classic">
+                        Classic Rock
+                    </a>
+                </li>
+                <li>
+                    <a href="#metal">
+                        Heavy Metal
+                    </a>
+                </li>
+                <li>
+                    <a href="#progressivo">
+                        Rock Progressivo
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <hr>
+
+    <main>
+        <article id="classic">
+            <h2>Classic Rock</h2>
+
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis tenetur, minus recusandae veniam ea minima id
+                deserunt eaque illo ad dolorum doloribus soluta dignissimos iure magni voluptas repellendus facilis
+                reprehenderit?</p>
+            <p>Rerum laborum facere mollitia aspernatur, incidunt maiores cum eveniet commodi aliquam ad repellendus modi
+                dolores possimus iusto repudiandae voluptatem similique excepturi porro laboriosam quos ullam quia neque
+                odit?
+                Deserunt, quam?</p>
+            <p>Accusantium voluptate aut laudantium quod atque, incidunt odit voluptates recusandae rerum tempora
+                praesentium
+                eveniet. Ad cum ab ut iusto a voluptatem quisquam, laboriosam eius quam, eum, nesciunt tempore sed esse.</p>
+            <p>Iure molestiae, atque ad nisi temporibus minus quibusdam corrupti aspernatur possimus, ea dolorem quas cumque
+                accusamus eius a suscipit corporis unde, doloremque cupiditate vel illo ipsum adipisci repellat? Magnam,
+                quaerat!</p>
+            <p>Est, quo facere a fuga adipisci corporis tenetur perspiciatis deleniti enim debitis dolorum eaque temporibus,
+                odio odit minus tempora voluptates explicabo asperiores corrupti harum obcaecati eveniet! Quae impedit
+                praesentium sapiente.</p>
+
+                <section>
+                    <h3>Black Sabbath</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, quos!</p>
+                </section>
+
+                <section>
+                    <h3>Led Zeppelin</h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                </section>
+
+                <section>
+                    <h3>Deep Purple</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur.</p>
+
+                    <aside>
+                        <h4>Saiba mais nos canais oficiais</h4>
+                        <ul>
+                            <li><a href="">Site Oficial</a></li>
+                            <li><a href="">Canal no Youtube</a></li>
+                            <li><a href="">Perfil Facebook</a></li>
+                        </ul>
+                    </aside>
+                </section>
+        </article>
+
+        <article id="metal">
+            <h2>Heavy Metal</h2>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias quo, iste vel esse vitae debitis.</p>
+            <p>Vel doloribus culpa cupiditate voluptas, dolore illo consequuntur, explicabo eius voluptate saepe eos
+                exercitationem reiciendis.</p>
+            <p>Quia, fugiat perspiciatis vitae repellat tempore nulla exercitationem doloribus rem tenetur labore eaque
+                numquam
+                mollitia?</p>
+            <p>Qui saepe aliquam, perspiciatis voluptate, tempora fugit blanditiis quo libero porro asperiores illo magni
+                commodi.</p>
+            <p>Dolore voluptate mollitia voluptates distinctio fuga. Expedita sunt aliquam aliquid tempore accusantium fugit
+                id
+                aperiam?</p>
+            <p>Rem numquam deleniti ducimus magnam. Deserunt culpa fugit eos laborum id recusandae voluptate placeat
+                impedit!
+            </p>
+            <p>Natus quidem deleniti minima, laudantium sequi harum dolor architecto voluptatibus quisquam animi ex,
+                quibusdam
+                quod.</p>
+
+        </article>
+
+        <article id="progressivo">
+            <h2>Rock Progressivo</h2>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolore magni reprehenderit aliquam ullam
+                ducimus dolores ipsum omnis ipsa iure.</p>
+            <p>Ad ab voluptate fuga corrupti eos dolorem, eveniet est dolores deleniti veritatis placeat quas quasi
+                consequuntur
+                eius maiores? Dignissimos, iste?</p>
+            <p>Rerum praesentium, veniam optio ipsa facilis libero laudantium. Aliquam doloribus, nostrum blanditiis
+                cupiditate
+                obcaecati ducimus fugiat maxime molestias eligendi modi.</p>
+            <p>Excepturi nihil tenetur quos quibusdam perferendis veritatis dolorum, corporis unde veniam? Cupiditate culpa
+                iure
+                aliquid sequi debitis voluptatem doloribus corrupti!</p>
+            <p>Vel officia officiis libero ipsum rem, quam expedita necessitatibus placeat praesentium assumenda sed
+                cupiditate,
+                recusandae beatae esse deserunt nulla? Quo!</p>
+            <p>Dolor a dolorum quia voluptates quibusdam optio nam, facilis, debitis delectus ducimus amet voluptate
+                perspiciatis sint, repellendus molestias quae nesciunt.</p>
+            <p>Neque sequi, dolorem ratione ullam quis distinctio molestias? Non consequatur libero totam et illo quasi sit
+                numquam tempora ut neque!</p>
+            <p>Sapiente expedita asperiores, incidunt, animi quasi, at cum mollitia hic officia atque doloremque nostrum
+                amet
+                eum. Quae, saepe. Facere, perspiciatis.</p>
+        </article>
+    </main>
+
+    <footer>
+        <h2>Exemplo de Site com tags semânticas</h2>
+        <p>Desenvolvido em 
+            <time datetime="2024-08-19">19/08/2024</time> 
+            no Senac Penha
+        </p>
+    </footer>
+</body>
+
+</html>
