@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dados tabulados no HTML</title>
+</head>
+
+<body>
+    <h1>Exemplo de tabelas</h1>
+    <hr>
+
+    <table border="1">
+        <caption>Relação de Clientes</caption>
+        <thead>
+            <tr>
+                <th>País</th>
+                <th>Nome</th>
+                <th>Cidade</th>
+                <th>Contato</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <!-- rowspan
+                 Mesclagem de células
+                 VERTICALMENTE -->
+                <td rowspan="4">Brasil</td>
+                <td>Chaves</td>
+                <td>Praia Grande</td>
+                <td>11-2135-0300</td>
+            </tr>
+            <tr>
+               
+                <td>Chapolin</td>
+                <td>Ubatuba</td>
+                <td>11-5555-4444</td>
+            </tr>
+            <tr>
+               
+                <td>Seu Madruga</td>
+                <td>São Paulo</td>
+                <td>11-3333-2222</td>
+            </tr>
+            <tr>
+               
+                <td>Bruxa do 71</td>
+                <td>Salem</td>
+                <td>66-6666-6666</td>
+            </tr>
+        </tbody>
+
+        <tfoot> <!-- Rodapé da tabela (opcional) -->
+            <tr>
+                <!-- 
+                colspan mescla COLUNAS/CÉLULAS,
+                mescla HORIZONTALMENTE -->
+                <td colspan="4">
+                    Total de clientes: 4
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+
+</html>
